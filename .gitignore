@@ -1,2 +1,24 @@
-*.agdai
-MAlonzo/**
+# ➤ Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ➤ Ambientes virtuais
+env/
+venv/
+.venv/
+
+# ➤ Arquivos temporários e logs
+*.log
+*.tmp
+
+# ➤ Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# ➤ Arquivos de configurações de IDEs
+.vscode/
+.idea/
+
+# (IMPORTANTE) ➤ NÃO ignorar imagens, para permitir prints no README
+# (Então não incluí *.png ou *.jpg aqui)
